@@ -1,0 +1,11 @@
+2014/07/04 12:54:05 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(22): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(13): FeedCommand->read()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#3 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#5 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#7 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
