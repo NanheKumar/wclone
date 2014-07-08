@@ -9,3 +9,658 @@ Stack trace:
 #6 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
 #7 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
 
+2014/07/04 14:00:08 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(22): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(13): FeedCommand->read()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#3 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#5 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#7 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/04 14:32:31 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(22): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(13): FeedCommand->read()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#3 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#5 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#7 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/04 14:55:40 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(24): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(20): FeedCommand->_fabfurnisFeed()
+#2 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): FeedCommand->_read()
+#3 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#4 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#6 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#8 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/04 15:04:09 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(16): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/04 15:07:18 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(16): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/04 15:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indaex".' in /usr/share/nginx/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CController.php(270): CController->missingAction('indaex')
+#1 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(282): CController->run('indaex')
+#2 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/indae...')
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=gii/model/indaex
+---
+2014/07/04 15:13:12 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(16): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/04 15:15:05 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(16): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/04 15:15:12 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(16): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/05 11:31:46 [error] [exception.CException] exception 'CException' with message 'FeedController cannot find the requested view "create".' in /usr/share/nginx/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#1 /usr/share/nginx/html/yii/waneloclone/protected/controllers/FeedController.php(79): CController->render('create', Array)
+#2 /usr/share/nginx/html/yii/framework/web/actions/CInlineAction.php(49): FeedController->actionCreate()
+#3 /usr/share/nginx/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/share/nginx/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/share/nginx/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/share/nginx/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/share/nginx/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/share/nginx/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#12 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/create')
+#13 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/create
+HTTP_REFERER=http://localhost/yii/waneloclone/index.php?r=site/login
+---
+2014/07/05 11:32:04 [error] [exception.CException] exception 'CException' with message 'FeedController cannot find the requested view "create".' in /usr/share/nginx/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#1 /usr/share/nginx/html/yii/waneloclone/protected/controllers/FeedController.php(79): CController->render('create', Array)
+#2 /usr/share/nginx/html/yii/framework/web/actions/CInlineAction.php(49): FeedController->actionCreate()
+#3 /usr/share/nginx/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/share/nginx/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/share/nginx/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/share/nginx/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/share/nginx/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/share/nginx/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#12 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/create')
+#13 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/create
+HTTP_REFERER=http://localhost/yii/waneloclone/index.php?r=site/login
+---
+2014/07/05 11:39:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/index".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/index')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/index
+---
+2014/07/05 11:39:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/feed/index".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/feed/index')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed/index
+---
+2014/07/05 12:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/
+---
+2014/07/05 12:06:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/feed".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/feed')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+---
+2014/07/05 12:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/feed/index".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/feed/index')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed/index
+---
+2014/07/05 12:09:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed
+---
+2014/07/05 12:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed
+---
+2014/07/05 12:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/default".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/default')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/default
+---
+2014/07/05 12:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/fee".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/fee')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/fee
+---
+2014/07/05 12:16:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/feed".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/feed')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+---
+2014/07/05 12:18:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed/feed
+---
+2014/07/05 12:45:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/feed".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/feed')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+---
+2014/07/07 13:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/feed".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/feed')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+---
+2014/07/07 15:57:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/feed".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/feed')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+---
+2014/07/07 15:58:37 [error] [exception.CException] exception 'CException' with message 'FeedController cannot find the requested view "index".' in /usr/share/nginx/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php(128): CController->render('index', Array)
+#2 /usr/share/nginx/html/yii/framework/web/actions/CInlineAction.php(49): FeedController->actionIndex()
+#3 /usr/share/nginx/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/share/nginx/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/share/nginx/html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/share/nginx/html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/share/nginx/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/share/nginx/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#12 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/feed')
+#13 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+---
+2014/07/07 16:15:12 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/07 16:15:55 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/07 16:16:26 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/07 16:19:05 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/07 16:19:24 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/07 16:25:11 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/07 16:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/feed".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/feed')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+---
+2014/07/07 16:29:00 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/07 16:30:12 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/07 16:31:54 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/07 16:31:59 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/07 23:42:23 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:09:31 [error] [php] include(Student.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:10:14 [error] [php] include(Student.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:10:19 [error] [php] include(Student.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:19:10 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:19:59 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:21:07 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:21:31 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:21:37 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:22:25 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:23:54 [error] [php] include(Feed.php): failed to open stream: No such file or directory (/usr/share/nginx/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /usr/share/nginx/html/yii/waneloclone/protected/commands/FeedCommand.php(15): spl_autoload_call()
+#1 /usr/share/nginx/html/yii/framework/console/CConsoleCommandRunner.php(71): FeedCommand->run()
+#2 /usr/share/nginx/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /usr/share/nginx/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /usr/share/nginx/html/yii/waneloclone/protected/yiic.php(7): require_once()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/yiic(4): require_once()
+
+2014/07/08 00:43:49 [error] [php] htmlspecialchars() expects parameter 1 to be string, object given (/usr/share/nginx/html/yii/framework/web/helpers/CHtml.php:103)
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CBaseController.php(130): require()
+#1 /usr/share/nginx/html/yii/framework/web/CBaseController.php(95): FeedController->renderInternal()
+#2 /usr/share/nginx/html/yii/framework/zii/widgets/CListView.php(291): FeedController->renderFile()
+#3 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(167): CListView->renderItems()
+#4 unknown(0): CListView->renderSection()
+#5 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback()
+#6 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(135): CListView->renderContent()
+#7 /usr/share/nginx/html/yii/framework/web/CBaseController.php(173): CListView->run()
+#8 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/index.php(20): FeedController->widget()
+#9 /usr/share/nginx/html/yii/framework/web/CBaseController.php(126): require()
+#10 /usr/share/nginx/html/yii/framework/web/CBaseController.php(95): FeedController->renderInternal()
+#11 /usr/share/nginx/html/yii/framework/web/CController.php(869): FeedController->renderFile()
+#12 /usr/share/nginx/html/yii/framework/web/CController.php(782): FeedController->renderPartial()
+#13 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php(128): FeedController->render()
+#14 /usr/share/nginx/html/yii/framework/web/actions/CInlineAction.php(49): FeedController->actionIndex()
+#15 /usr/share/nginx/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#16 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(133): FeedController->runAction()
+#17 /usr/share/nginx/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /usr/share/nginx/html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#19 /usr/share/nginx/html/yii/framework/web/filters/CInlineFilter.php(58): FeedController->filterAccessControl()
+#20 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#21 /usr/share/nginx/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#22 /usr/share/nginx/html/yii/framework/web/CController.php(265): FeedController->runActionWithFilters()
+#23 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(282): FeedController->run()
+#24 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#25 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /usr/share/nginx/html/yii/waneloclone/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/_view.php (26)
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/index.php (20)
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php (128)
+2014/07/08 00:44:41 [error] [php] htmlspecialchars() expects parameter 1 to be string, object given (/usr/share/nginx/html/yii/framework/web/helpers/CHtml.php:103)
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CBaseController.php(130): require()
+#1 /usr/share/nginx/html/yii/framework/web/CBaseController.php(95): FeedController->renderInternal()
+#2 /usr/share/nginx/html/yii/framework/zii/widgets/CListView.php(291): FeedController->renderFile()
+#3 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(167): CListView->renderItems()
+#4 unknown(0): CListView->renderSection()
+#5 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback()
+#6 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(135): CListView->renderContent()
+#7 /usr/share/nginx/html/yii/framework/web/CBaseController.php(173): CListView->run()
+#8 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/index.php(20): FeedController->widget()
+#9 /usr/share/nginx/html/yii/framework/web/CBaseController.php(126): require()
+#10 /usr/share/nginx/html/yii/framework/web/CBaseController.php(95): FeedController->renderInternal()
+#11 /usr/share/nginx/html/yii/framework/web/CController.php(869): FeedController->renderFile()
+#12 /usr/share/nginx/html/yii/framework/web/CController.php(782): FeedController->renderPartial()
+#13 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php(128): FeedController->render()
+#14 /usr/share/nginx/html/yii/framework/web/actions/CInlineAction.php(49): FeedController->actionIndex()
+#15 /usr/share/nginx/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#16 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(133): FeedController->runAction()
+#17 /usr/share/nginx/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /usr/share/nginx/html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#19 /usr/share/nginx/html/yii/framework/web/filters/CInlineFilter.php(58): FeedController->filterAccessControl()
+#20 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#21 /usr/share/nginx/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#22 /usr/share/nginx/html/yii/framework/web/CController.php(265): FeedController->runActionWithFilters()
+#23 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(282): FeedController->run()
+#24 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#25 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /usr/share/nginx/html/yii/waneloclone/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/_view.php (26)
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/index.php (20)
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php (128)
+2014/07/08 00:45:11 [error] [php] Object of class stdClass could not be converted to string (/usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/_view.php:26)
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/zii/widgets/CListView.php(291): FeedController->renderFile()
+#1 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback()
+#4 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(135): CListView->renderContent()
+#5 /usr/share/nginx/html/yii/framework/web/CBaseController.php(173): CListView->run()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/index.php(20): FeedController->widget()
+#7 /usr/share/nginx/html/yii/framework/web/CBaseController.php(126): require()
+#8 /usr/share/nginx/html/yii/framework/web/CBaseController.php(95): FeedController->renderInternal()
+#9 /usr/share/nginx/html/yii/framework/web/CController.php(869): FeedController->renderFile()
+#10 /usr/share/nginx/html/yii/framework/web/CController.php(782): FeedController->renderPartial()
+#11 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php(128): FeedController->render()
+#12 /usr/share/nginx/html/yii/framework/web/actions/CInlineAction.php(49): FeedController->actionIndex()
+#13 /usr/share/nginx/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(133): FeedController->runAction()
+#15 /usr/share/nginx/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /usr/share/nginx/html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /usr/share/nginx/html/yii/framework/web/filters/CInlineFilter.php(58): FeedController->filterAccessControl()
+#18 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /usr/share/nginx/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#20 /usr/share/nginx/html/yii/framework/web/CController.php(265): FeedController->runActionWithFilters()
+#21 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(282): FeedController->run()
+#22 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /usr/share/nginx/html/yii/waneloclone/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/_view.php (26)
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/index.php (20)
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php (128)
+2014/07/08 00:46:43 [error] [php] Object of class stdClass could not be converted to string (/usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/_view.php:26)
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/zii/widgets/CListView.php(291): FeedController->renderFile()
+#1 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback()
+#4 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(135): CListView->renderContent()
+#5 /usr/share/nginx/html/yii/framework/web/CBaseController.php(173): CListView->run()
+#6 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/index.php(20): FeedController->widget()
+#7 /usr/share/nginx/html/yii/framework/web/CBaseController.php(126): require()
+#8 /usr/share/nginx/html/yii/framework/web/CBaseController.php(95): FeedController->renderInternal()
+#9 /usr/share/nginx/html/yii/framework/web/CController.php(869): FeedController->renderFile()
+#10 /usr/share/nginx/html/yii/framework/web/CController.php(782): FeedController->renderPartial()
+#11 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php(128): FeedController->render()
+#12 /usr/share/nginx/html/yii/framework/web/actions/CInlineAction.php(49): FeedController->actionIndex()
+#13 /usr/share/nginx/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(133): FeedController->runAction()
+#15 /usr/share/nginx/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /usr/share/nginx/html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /usr/share/nginx/html/yii/framework/web/filters/CInlineFilter.php(58): FeedController->filterAccessControl()
+#18 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /usr/share/nginx/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#20 /usr/share/nginx/html/yii/framework/web/CController.php(265): FeedController->runActionWithFilters()
+#21 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(282): FeedController->run()
+#22 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /usr/share/nginx/html/yii/waneloclone/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/_view.php (26)
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/index.php (20)
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php (128)
+2014/07/08 00:48:28 [error] [php] htmlspecialchars() expects parameter 1 to be string, object given (/usr/share/nginx/html/yii/framework/web/helpers/CHtml.php:103)
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CBaseController.php(130): require()
+#1 /usr/share/nginx/html/yii/framework/web/CBaseController.php(95): FeedController->renderInternal()
+#2 /usr/share/nginx/html/yii/framework/zii/widgets/CListView.php(291): FeedController->renderFile()
+#3 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(167): CListView->renderItems()
+#4 unknown(0): CListView->renderSection()
+#5 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback()
+#6 /usr/share/nginx/html/yii/framework/zii/widgets/CBaseListView.php(135): CListView->renderContent()
+#7 /usr/share/nginx/html/yii/framework/web/CBaseController.php(173): CListView->run()
+#8 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/index.php(20): FeedController->widget()
+#9 /usr/share/nginx/html/yii/framework/web/CBaseController.php(126): require()
+#10 /usr/share/nginx/html/yii/framework/web/CBaseController.php(95): FeedController->renderInternal()
+#11 /usr/share/nginx/html/yii/framework/web/CController.php(869): FeedController->renderFile()
+#12 /usr/share/nginx/html/yii/framework/web/CController.php(782): FeedController->renderPartial()
+#13 /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php(128): FeedController->render()
+#14 /usr/share/nginx/html/yii/framework/web/actions/CInlineAction.php(49): FeedController->actionIndex()
+#15 /usr/share/nginx/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#16 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(133): FeedController->runAction()
+#17 /usr/share/nginx/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /usr/share/nginx/html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#19 /usr/share/nginx/html/yii/framework/web/filters/CInlineFilter.php(58): FeedController->filterAccessControl()
+#20 /usr/share/nginx/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#21 /usr/share/nginx/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#22 /usr/share/nginx/html/yii/framework/web/CController.php(265): FeedController->runActionWithFilters()
+#23 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(282): FeedController->run()
+#24 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#25 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /usr/share/nginx/html/yii/waneloclone/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/_view.php (26)
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/views/feed/index.php (20)
+in /usr/share/nginx/html/yii/waneloclone/protected/modules/feed/controllers/FeedController.php (128)
+2014/07/08 13:00:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feed/feed\".' in /usr/share/nginx/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('feed/feed\')
+#1 /usr/share/nginx/html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/yii/waneloclone/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/waneloclone/index.php?r=feed/feed\
+---
